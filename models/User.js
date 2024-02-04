@@ -10,7 +10,7 @@ const userSchema = mongoose.Schema({
         trim: true, /* removing the space in email */ 
         unique: 1
     },
-    psddword: {
+    password: {
         type: String,
         minlength: 5
     },
